@@ -8,3 +8,29 @@ This program works to scrape together data through incremental search "windows" 
 Note: INaturalist's API is not intended for data scraping. While this script complies with their policies, I cannot condone its usage. I created this program for educational and proof of concept purposes. This script is especially intended to retrieve information that is unavailable through their formal data export tool, and can be used to collect more data than their data export tool allows (given enough time). Be sure to include appropriate attributions when using photos copyrighted under the Creative Commons License.<br>
 <a href="https://www.inaturalist.org/pages/api+recommended+practices">INaturalist's API recommended practices</a> <br>
 <a href="https://www.inaturalist.org/observations/export">INaturalist's formal data export tool</a>
+
+
+<H2>Features:</h2>
+<ul>
+<p>-Fetches observations from Inaturalist based on configurable parameters</p>
+<p>-Filters observation data according to a configurable field list</p>
+<p>-Handles data issues of the currently pressent fields</p>
+<p>-Fully complies with Inaturalist's API use and data downloading policy</p>
+<p>-Saves results to CSV for further analysis</p>
+</ul>
+
+<H2>Prerequisites:</h2>
+<ul>
+<p>-Python 3.12 and the following libraries:</p>
+    <ul>
+        <p>-requests</p>
+        <p>-pandas</p>
+        <p>-time</p>
+        <p>-json</p>
+        <p>-math</p>
+        <p>-os</p>
+        <p>-datetime</p>
+    </ul>
+</ul>
+
+Feel free to email me with any questions or concerns: jweil@ucsd.edu
