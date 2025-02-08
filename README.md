@@ -1,4 +1,4 @@
-# INaturalist-API-ObersvationData-Scraper
+# INaturalist-API-Obersvation-Data-Scraper
 This notebook contains a scraper for retrieving data from the [iNaturalist API](https://www.inaturalist.org/pages/api+reference). The scraper collects observations based on user-specified parameters, such as species names, location, or media types (photos, sounds, etc.).
 
 This script utilizes the "window" method of requesting data from the API. Due to INaturalist's limit of 10,000 observations per request, you must first tailor your parameters to fetch no more than 10,000 results per each request. You should not alter the request rate to fetch more than 60 times per minute, and should also not request more than 10,000 times per day (though difficult). Download capacity (monitored by the program) is capped at 5GB per hour, and no more than 24GB per day per INaturalist's usage policy. If you start and stop this program rather than running it once per day, be sure to monitor your total data usage manually. Should an error occur, your data will automatically be saved.
