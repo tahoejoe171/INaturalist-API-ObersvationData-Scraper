@@ -14,8 +14,8 @@ Note: INaturalist's API is not intended for data scraping. While this script com
 <ul>
 <p>-Fetches observations from Inaturalist based on configurable parameters</p>
 <p>-Filters observation data according to a configurable field list</p>
-<p>-Handles data issues of the currently pressent fields</p>
-<p>-Fully complies with Inaturalist's API use and data downloading policy</p>
+<p>-Handles data issues of the currently present fields</p>
+<p>-Fully complies with INaturalist's API use and data downloading policy</p>
 <p>-Saves results to CSV for further analysis</p>
 </ul>
 
