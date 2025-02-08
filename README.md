@@ -32,5 +32,5 @@ Note: INaturalist's API is not intended for data scraping. While this script com
         <p>-datetime</p>
     </ul>
 </ul>
-
+Launch in your favorite IDE or Colab to begin.
 Feel free to email me with any questions or concerns: jweil@ucsd.edu
