@@ -21,16 +21,18 @@ Note: INaturalist's API is not intended for data scraping. While this script com
 
 <H2>Prerequisites:</h2>
 <ul>
-<p>-Python 3.12 and the following libraries:</p>
+<p>-Python 3.12 and the following nonstandard Python libraries:</p>
     <ul>
-        <p>-requests</p>
-        <p>-pandas</p>
-        <p>-time</p>
-        <p>-json</p>
-        <p>-math</p>
-        <p>-os</p>
-        <p>-datetime</p>
+        <li>pandas</li>
+        <li>requests</li>
     </ul>
 </ul>
-Launch in your favorite IDE or Colab to begin.<br>
-Feel free to email me with any questions or concerns: jweil@ucsd.edu
+To begin, download the project by cloning the repository: <br>
+`git clone https://github.com/tahoejoe171/INaturalist-API-Observation-Data-Scraper.git` <br>
+Navigate to the project folder: <br>
+`cd INaturalist-API-Observation-Data-Scraper` <br>
+Run the following command inside the project directory after cloning the repository:<br>
+`pip install -r requirements.txt'
+<br>
+Then, follow the execution instructions in the Jupyter Notebook. <br>
+Have any questions or feedback? E-mail me at <a href="mailto:jweil@ucsd.edu">Jweil@ucsd.edu</a>
